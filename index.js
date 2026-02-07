@@ -142,32 +142,47 @@
 //     alert("Correct! The password you entered matches the original password");
 // } 
 // else {
-   
+
 //     alert("Incorrect password");
 // }
 
 
-var greeting;
-var hour = 13;
+// var greeting;
+// var hour = 13;
 
-if (hour < 18) {
-    greeting = "Good day";
-} else {
-    greeting = "Good evening";
-}
+// if (hour < 18) {
+//     greeting = "Good day";
+// } else {
+//     greeting = "Good evening";
+// }
 
-console.log(greeting);
+// console.log(greeting);
 
-var time = 1900; 
+// var time = 1900; 
 
-if (time >= 0 && time < 1200) {
-    console.log("Good Morning");
-} else if (time >= 1200 && time < 1700) {
-    console.log("Good Afternoon");
-} else if (time >= 1700 && time < 2100) {
-    console.log("Good Evening");
-} else if (time >= 2100 && time <= 2359) {
-    console.log("Good Night");
-} else {
-    console.log("Invalid time");
-}
+// if (time >= 0 && time < 1200) {
+//     console.log("Good Morning");
+// } else if (time >= 1200 && time < 1700) {
+//     console.log("Good Afternoon");
+// } else if (time >= 1700 && time < 2100) {
+//     console.log("Good Evening");
+// } else if (time >= 2100 && time <= 2359) {
+//     console.log("Good Night");
+// } else {
+//     console.log("Invalid time");
+// }
+// var username = ["Liam", "Noah", "Oliver", "Elijah", "James", "William", "Benjamin", "Lucas", "Henry", "Alexander",
+//     "Olivia", "Emma", "Ava", "Sophia", "Isabella", "Mia", "Charlotte", "Amelia", "Harper", "Evelyn",
+//     "Michael",];
+
+
+// for (var talha = 0; username.length; talha++) {
+//     console.log(`This is num.>>>>> ${talha}`);
+
+// }
+
+// for(a = 1;a <= 10; a++){
+//     console.log("2 x ",a,"=",a*2);
+    
+// }
+  

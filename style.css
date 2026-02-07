@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+
+}
+
+body {
+    background: linear-gradient(90deg, rgba(42, 48, 155, 1) 0%, rgba(167, 87, 199, 1) 50%, rgba(237, 83, 114, 1) 100%);
+    width: 100%;
+    margin: auto;
+}
+
+h2 {
+    margin: 10px 0px;
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: 30px;
+}
+
+#upper {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    border: 1px solid black;
+    padding: 10px;
+}
+#rules{
+    font-weight: 700;
+}   
+
+ul {
+    list-style: none;
+}   
+ul >li{
+    font-size: 14px;
+}
+#gussevalue{
+    font-size: 15px;
+    height: 24px;
+    padding: 2px 5px;
+    margin: 10px;
+
+}
+
+#hint{
+    
+    margin: 5px 10px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 7px 15px;
+    margin: 5px;
+    
+}

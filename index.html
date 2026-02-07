@@ -3,11 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Gusse The Number</title>
 </head>
 <body>
-    
 
-    <script src="index.js"></script>
+    <h2 id="title">Number Gusseing Game</h2>
+    <div id="upper">
+        <P id="rules">Rules</P>
+        <ul>
+            <li>>>>> Choose a value between 1 to 100</li>
+            <li>>>>> You wil be again only 5 chances</li>
+            <li>>>>> Optimize your gusses based on hints</li>
+        </ul>
+    </div>
+    
+    <div class="game">
+        <input type="text" name="" id="gussevalue" placeholder="Gusse The Number">
+        <button class="btn">Gusse</button>
+        <span id="count">0</span>
+        <p id="hint">*do the first gusse to get a hint</p>
+        <button class="btn">Restart</button>
+    </div>
 </body>
-</html> 
+</html>
